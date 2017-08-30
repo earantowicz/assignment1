@@ -6,17 +6,13 @@ nav {
     font-family: verdana;
     text-decoration: none; }
 
-h1 {
-  text-align: center;
-  font-family: verdana; }
-
-h2 {
+h1, h2 {
   text-align: center;
   font-family: verdana; }
 
 p {
-  text-align: center;
-  font-family: verdana; }
+  font-family: verdana;
+  text-align: center; }
 
 body {
   background-color: #e855e8;
