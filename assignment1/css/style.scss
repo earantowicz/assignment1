@@ -1,8 +1,18 @@
-h1{text-align: center; font-family: Comic Sans MS;}
-h2{text-align: center; font-family: Comic Sans MS;}
-p{text-align: center; font-family: Comic Sans MS;}
-nav{text-align: center;}
-body{background-color: lightgray;}
-.wrapper{width: 1200px; margin: 0 auto; background-color: lightblue;}
-img{width: 400px; height: 400px;}
-.dogs{text-align: center;}
+//Variables Code
+$font: verdana;
+$bgcolor: violet;
+$border: gray dotted thick;
+$center: center;
+$size: 400px;
+
+
+h1{text-align: $center; font-family: $font;}
+h2{text-align: $center; font-family: $font;}
+p{text-align: $center; font-family: $font;}
+nav{text-align: $center;}
+body{background-color: $bgcolor; border: $border;}
+.wrapper{width: 1200px; margin: 0 auto; background-color: $bgcolor;}
+img{width: $size; height: $size; border: $border;}
+.dogs{text-align: $center;}
+
+

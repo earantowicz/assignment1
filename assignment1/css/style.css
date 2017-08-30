@@ -1,29 +1,31 @@
 h1 {
   text-align: center;
-  font-family: Comic Sans MS; }
+  font-family: verdana; }
 
 h2 {
   text-align: center;
-  font-family: Comic Sans MS; }
+  font-family: verdana; }
 
 p {
   text-align: center;
-  font-family: Comic Sans MS; }
+  font-family: verdana; }
 
 nav {
   text-align: center; }
 
 body {
-  background-color: lightgray; }
+  background-color: violet;
+  border: gray dotted thick; }
 
 .wrapper {
   width: 1200px;
   margin: 0 auto;
-  background-color: lightblue; }
+  background-color: violet; }
 
 img {
   width: 400px;
-  height: 400px; }
+  height: 400px;
+  border: gray dotted thick; }
 
 .dogs {
   text-align: center; }
