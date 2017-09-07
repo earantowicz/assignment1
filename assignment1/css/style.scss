@@ -4,6 +4,7 @@ $bgcolor: violet;
 $border: gray dotted thick;
 $center: center;
 $size: 400px;
+$default-size: 16px;
 
 //SASS MIXIN
 @mixin test($font: verdana, $center:center){
@@ -23,6 +24,7 @@ nav{
 }
 
 h1{
+    font-size: $default-size * 4;
     text-align: $center;
      font-family: $font;
     }
